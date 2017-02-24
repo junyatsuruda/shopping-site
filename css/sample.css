@@ -220,7 +220,6 @@ header .sp_navi_li li a {
     font-size: 14px;
     font-size: 1.4rem;
     margin-bottom: 20px;
-    margin-top: 20px;
   }
   #news_area .news_lists li span {
     color: #42b9d0;
@@ -323,20 +322,164 @@ h1 {
   padding: 0;
 }
 
-
-media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)
-sample.css:1
-#sub_cover {
-    background-image: url(../images/news/sub_cover@2x.jpg);
-}
-@media (min-width: 550px)
-sample.css:1
+ @media (min-width: 550px){
 #sub_cover {
     padding: 80px 0;
+}}
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dp){
+  #sub_cover{
+    background-image: url(../images/news/sub_cover@2x.jp);
+  }
 }
 
 #sub_cover{
   padding: 40px 0;
-  background-image: url(../images/news/sub_cover@2x.jpg);
+  background-image: url(../images/news/sub_cover.jpg);
+  background-size: cover;
 }
+
+#sub_cover h2{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-size: 3.rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing:0.2rem;
+}
+
+#contents #main
+ h2.company_title {
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+#contents #main h2{
+    color:#42b9d0;
+    border-bottom:3px solid #42b9d0;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+ @media (min-width: 550px){
+ #contents #main h2{
+     color: #42b9d0;
+     border-bottom:3px solid #42b9d0;
+     font-size: 20px;
+     font-size: 2rem;
+     font-weight: bold;
+     padding-bottom: 15px;
+ }}
+ 
+ #contents #sidebar
+ .pc_sidemenu h3{
+     color: #42b9d0;
+     font-size: 14px;
+     font-size: 1.4rem;
+     letter-spacing: 0.2rem;
+     font-weight: bold;
+     background-color: #f3f9fb;
+     padding: 15px;
+     margin-bottom: 0px;
+ }
+ 
+#contents #sidebar{
+    padding-bottom: 20px;
+    
+}
+#contents #sidebar
+.pc_sidemenu li{
+    list-style: none;
+    display: block;
+    border-bottom:1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position:8px center;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 20px;
+    background-image: url(../images/news/side_arrow.png);
+    background-size: 4px 8px;
+}
+ 
+ @media (min-width: 550px) {
+  #sub_cover {
+    text-align: left;
+    height: 420px;
+    padding: 0;
+    background-size: cover;
+  }
+  #cover_area img {
+    margin-top: 180px;
+    margin-left: 70px;
+  }
+}
+
+#contents #main .news_li li span{
+  color: #42b9d0;
+  font-size:15px;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+
+#contants #main .news_li li{
+  list-style: none;
+}
+
+
+#sub_cover h2{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin:0;
+  letter-spacing: 0.2rem;
+}
+
+@media (min-width: 550px){
+  #sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media (min-width: 550px){
+  #sub_cover {
+    padding: 80px 0;
+  }
+}
+
+#sub_cover{
+  background-size: cover;
+  height: 400;
+  
+}
+
+@media (min-width: 550px){
+  #sub_cover{
+    text-align: left;
+    height: 200px;
+    padding: 0;
+    background-image: cover;
+  }
+}
+
+#contents #main .news_li li{
+  list-style: none;
+}
+
+li{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  
+  
+  
+}
+
 /*# sourceMappingURL=sample.css.map */
