@@ -108,6 +108,29 @@ footer .copy {
   font-size: 1.1rem;
   color: #b2e1ea;
 }
+ footer .foot_navi a {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+  footer .foot_navi a:hover {
+    color: #eaf2f4;
+  }
+  footer .copy {
+    margin-top: 30px;
+  }
+  footer .foot_navi li{
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    background-image: url("../images/top/foot_arroehead.png");
+    margin-right: 10px;
+    font-size: 11px;
+    font-size: 1.1rem;
+    background-size: 4px 6px;
+  }
+
 
 h1 {
   margin: 0;
@@ -250,6 +273,7 @@ li{
   footer .foot_navi li {
     list-style: none;
     margin-bottom: 1px;
+    display: block;
   }
   footer .foot_navi li a {
     color: #42b9d0;
@@ -261,6 +285,9 @@ li{
     font-size: 16px;
     font-size: 1.6rem;
     padding: 16px 0;
+  }
+  .pc_sidemenu{
+    display: none;
   }
 }
 
@@ -301,6 +328,15 @@ li{
     background-size: 40px 40px;
   }
   header .pc_navi_li li.navi_news a {
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 50px;
+    background-image: url("../images/top/navi_news.png");
+    background-size: 40px 40px;
+  }
+  
+   header .pc_navi_li li.navi_company a {
     background-repeat: no-repeat;
     display: inline-block;
     line-height: 40px;
@@ -381,6 +417,7 @@ li{
     font-weight: bold;
     margin: 0;
     letter-spacing: 0.2rem;
+    margin: 80px 0;
   }
    #sub_cover {
     padding: 80px 0;
@@ -392,6 +429,8 @@ li{
     background-image: cover;
     margin: 0;
   }
+ 
+  
  
 }
 
