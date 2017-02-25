@@ -98,9 +98,9 @@ footer {
 }
 
 footer .foot_address {
-  font-size: 16px;
-  font-size: 1.6rem;
-  padding-top: 10px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding-top: ;
 }
 footer .copy {
   text-align: center;
@@ -129,7 +129,14 @@ footer .copy {
     font-size: 11px;
     font-size: 1.1rem;
     background-size: 4px 6px;
+  
   }
+  footer{
+    margin-top: 70px;
+  }
+   footer .foot_navi {
+     display: block;
+   }
 
 
 h1 {
@@ -155,9 +162,17 @@ h1 {
 }
 
 #contents #main
+ h2.news_title {
+    margin-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+#contents #main
  h2.company_title {
     margin-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 #contents #main h2{
     color:#42b9d0;
@@ -166,7 +181,9 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 15px;
+    
 }
+
  
  
  #contents #sidebar
@@ -192,10 +209,16 @@ h1 {
     border-bottom:1px solid #e5e5e5;
     background-repeat: no-repeat;
     background-position:8px center;
-    margin-bottom: 0px;
-    padding: 10px 10px 10px 20px;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 20px;
+    font-weight: normal;
     background-image: url(../images/news/side_arrow.png);
     background-size: 4px 8px;
+
+}
+#contents #sidebar
+.pc_sidemenu li a{
+  text-decoration: none;
 }
  
 
@@ -205,8 +228,18 @@ h1 {
   font-size:15px;
   display: inline-block;
   font-weight: bold;
+  line-height: 24px
   margin-bottom: 0px;
   padding-right: 10px;
+  text-align: left;
+}
+#contents #main .news_li li {
+  font-size:15px;
+  display: inline-block;
+  line-height: 24px
+  margin-bottom: px;
+  padding-bottom: px;
+  text-align: left;
 }
 
 #contants #main .news_li li{
@@ -237,14 +270,35 @@ li{
 }
 
 .pc_sidemenu{
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 #sub_cover{
   background-size: cover;
   height: 400;
+}
+  
+
+
+th {
+  padding: 20px 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #626262;
+}
+
+td{
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #626262;
+  padding-left: 60px;
   
 }
+
+
+
+
+
 
 
 /****/
@@ -286,9 +340,13 @@ li{
     font-size: 1.6rem;
     padding: 16px 0;
   }
-  .pc_sidemenu{
-    display: none;
+  footer {
+    margin-top: 70px;
   }
+
+.pc_sidemenu {
+    display: none;
+}
 }
 
 @media (min-width: 550px) {
@@ -429,10 +487,15 @@ li{
     background-image: cover;
     margin: 0;
   }
- 
+  footer .foot_navi {
+    color: #42b9d0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-size: 1.5rem;  }
   
- 
-}
+  
 
 
 @media screen and (min-width: 550px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 550px) and (min-resolution: 2dppx) {
