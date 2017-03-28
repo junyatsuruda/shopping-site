@@ -696,6 +696,8 @@ article#shopping{
 
 
 
+
+
 /****/
 @media (max-width: 550px) {
   header .logo {
@@ -706,7 +708,7 @@ article#shopping{
   .sp_navi li{
     text-decoration: none;
     display: inline-block;
-    margin: 10 5px 0 0;
+    margin: 1px 5px 0 0;
   }
   
   .sp_navi ul{
@@ -970,6 +972,11 @@ margin:0;
 padding:0;
   }
   
+  #title{
+    height:1000px;
+  }
+  
+ 
   
 }
   
@@ -988,12 +995,29 @@ padding:0;
   .sp_navi_list{
     display: none;
   }
-  header #header_in {
-    padding: 15px 0 10px 0;
-  }
-  header .pc_navi_li  {
+  
+    header .pc_navi_li {
   display: inline-block;
+  margin:-10px 0 0 0;
+  
+  
   }
+  
+   header .pc_navi_li {
+  display: inline-block;
+  margin:-10px 0 30px 0;
+  
+  }
+  
+  
+  header .pc_navi_li ul{
+    padding: 10px 0 0px 0;
+  }
+ 
+  
+  
+  
+  
   header .pc_navi_li li {
     list-style: none;
     margin: 28px 0 0 0;
@@ -1193,9 +1217,9 @@ padding:0;
   display:inline-block ;
 }
 
-}
+
 li img {
-  width: 70px;
+  
   cursor: pointer;
   padding:0 5px 0 0;
   margin:0 0 -10px 0;
@@ -1233,7 +1257,11 @@ article#title p{
   margin:0 0 ;
 }
 
+
+
+
 }
+
 
 
 
